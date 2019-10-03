@@ -1,6 +1,7 @@
 import React from "react";
+import { nullLiteral } from "@babel/types";
 
-const toDo = props => {
+const ToDo = props => {
     return (
         <div
         onClick={props.onClick}
@@ -10,4 +11,4 @@ const toDo = props => {
     ) 
 }
 
-export default toDo;
+export default ToDo;
